@@ -9,7 +9,7 @@
 git clone git@github.com:NeilAlishev/SpringCourse.git
 ```
 
-* Откройте проект в IntelliJ Idea (или Eclipse)
+* Нажмите на кнопку Open в IntelliJ Idea (или Eclipse)
 <img src="../media/nonMVCStep1.png" width="400">
 
 * Выберите нужный проект
