@@ -22,4 +22,5 @@ git clone git@github.com:NeilAlishev/SpringCourse.git
 <img src="../media/nonMVCStep4.png" width="400">
 
 ### Для Web - приложений (Spring MVC)
-Будут добавлены позже, когда появятся уроки по Spring MVC
+
+Все так же, как и у базовых Spring приложений, за исключением того, что надо настроить сервер. Эта процедура показана в этом уроке - https://www.youtube.com/watch?v=BgE5DoIN6Bs
