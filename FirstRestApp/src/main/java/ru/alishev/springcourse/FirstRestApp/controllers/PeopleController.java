@@ -30,10 +30,4 @@ public class PeopleController {
     public Person getPerson(@PathVariable("id") int id) {
         return peopleService.findOne(id); // Jackson конвертирует в JSON
     }
-
-    @GetMapping("/helloWorld")
-    @ResponseBody
-    public String hello() {
-        return "Text data";
-    }
 }
