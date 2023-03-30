@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Hello</title>
@@ -8,5 +8,10 @@
 Hello!
 
 <a href="/first/goodbye">Say goodbye</a> or <a href="/exit">Exit</a>
+or <a href ="/first/hello?a=4&b=2&action=addition">Request with parameters</a>
+
+<p th:text="${someMessage}" />
+
+
 </body>
 </html>
