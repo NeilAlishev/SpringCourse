@@ -38,11 +38,13 @@ public class PersonDAO {
         return session.get(Person.class,id);
     }
 
+    @Transactional
     public void save(Person person) {
         Session session = sessionFactory.getCurrentSession();
         session.persist(person);
     }
 
+    @Transactional
     public void update(int id, Person updatedPerson) {
         Session session = sessionFactory.getCurrentSession();
         Person person = session.get(Person.class, id);
@@ -50,6 +52,7 @@ public class PersonDAO {
         person.setName(updatedPerson.getName());
     }
 
+    @Transactional
     public void delete(int id) {
         Session session = sessionFactory.getCurrentSession();
         session.remove(session.get(Person.class, id));
