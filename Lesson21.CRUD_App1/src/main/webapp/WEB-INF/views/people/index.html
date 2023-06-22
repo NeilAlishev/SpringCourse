@@ -2,13 +2,18 @@
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Все люди</title>
+    <title>All people</title>
 </head>
 <body>
 
 <div th:each="person : ${people}">
     <a th:href="@{/people/{id}(id=${person.getId()})}" th:text="${person.getName()}">user</a>
 </div>
+
+<br/>
+<hr/>
+
+<a href="/people/new">Create new person</a>
 
 </body>
 </html>
