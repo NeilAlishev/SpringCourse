@@ -9,5 +9,5 @@ import ru.alishev.springcourse.FirstRestApp.models.Person;
  */
 @Repository
 public interface PeopleRepository extends JpaRepository<Person, Integer> {
-
+ hello World
 }
